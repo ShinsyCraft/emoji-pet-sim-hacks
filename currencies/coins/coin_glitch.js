@@ -1,5 +1,5 @@
 (() => {
-  const TARGET_MONEY = 5e30;
+  const TARGET_MONEY = 500e21;
  
   // Find any element displaying money/currency on screen
   const allElements = document.querySelectorAll('*');
@@ -32,7 +32,7 @@
   }
  
   if (success) {
-    console.log("%c[Success] Updated React internal state to 5 Quintillion!", "color: #00ff00; font-weight: bold;");
+    console.log("%c[Success] Updated React internal state!", "color: #00ff00; font-weight: bold;");
   } else {
     console.log("%c[Notice] Target element not found. See Method 2.", "color: #ff9900;");
   }
